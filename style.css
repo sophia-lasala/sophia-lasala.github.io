@@ -1,1 +1,24 @@
+header {
+    margin:40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    gap: 20px;
+}
+
+main{
+    margin:40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+    margin:40px;
+    font-family: 'Times New Roman', Times, serif;
+}
 
