@@ -64,3 +64,25 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+.about-photo {
+    float: right;
+    width: 250px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.about p {
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.skills h2 {
+    text-align: center;
+}
