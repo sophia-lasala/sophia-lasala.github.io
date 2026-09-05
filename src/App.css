@@ -133,8 +133,11 @@ footer a:hover {
         flex-direction: column;
     }
 
+    nav a{
+        margin-left: 15px;
+    }
+
     .footer-links {
-        display: flex;
         gap: 20px;
     }   
 
@@ -143,7 +146,8 @@ footer a:hover {
     }
 
     .about-photo {
-        float: center;
+        display: grid;
+        float: left;
         width: 250px;
         margin-top: 15px;
         margin-left: 30px;
@@ -155,7 +159,7 @@ footer a:hover {
     }
 
     .skills{
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(1 , 1fr);
     }
 }
 
@@ -189,7 +193,6 @@ footer a:hover {
 .resume{
     align-items: left;
     object-fit: cover;
-
 }
 
 .resume h1{
