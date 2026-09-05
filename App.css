@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    background-color: #07203F;
+
+    padding: 20px 40px;
+
+}
+
+nav {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #E8F5E9;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    margin:40px;
+    font-family: 'Inter', sans-serif;
+    flex: 1;
+    color: #02000D;
+}
+
+footer {
+    font-family: 'Inter', sans-serif;
+    background-color: #313e47;
+    color: white;
+}
+
+footer hr {
+    margin: 0;
+}
+
+.footer-content {
+    margin: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-contact {
+    color: white;
+}
+.footer-links {
+    display: flex;
+    gap: 40px;
+}
+
+footer a {
+    color: #E8F5E9;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.project-card {
+    display: block;
+
+    text-decoration: none;
+    color: black;
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    background-color: white;
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.project-card img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project-info h2 {
+    margin-top: 0;
+}
+
+.project-info p {
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.about-photo {
+    float: right;
+    width: 250px;
+    margin-top: -40px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+
+    object-fit: cover;
+    border-radius: 40px;
+    corner-shape: squircle;
+}
+
+.about p {
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.skills h2 {
+    text-align: center;
+}
+
+.resume{
+    align-items: left;
+}
+
+.resume h1{
+    align-items: left;
+}
