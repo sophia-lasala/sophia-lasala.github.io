@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 
 import './App.css'
 
@@ -11,7 +11,7 @@ import Resume from './pages/Resume'
 
 function App() {
     return (
-        <BrowserRouter>
+        <HashRouter>
 
             <div className="page">
 
@@ -29,7 +29,7 @@ function App() {
 
             </div>
 
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
