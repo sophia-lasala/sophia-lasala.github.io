@@ -5,6 +5,7 @@ body {
 
 header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     font-family: 'Inter', sans-serif;
@@ -128,7 +129,32 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
+    header{
+        flex-direction: column;
+    }
+
+    .footer-links {
+        display: flex;
+        gap: 20px;
+    }   
+
     .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-photo {
+        float: center;
+        width: 250px;
+        margin-top: 15px;
+        margin-left: 30px;
+        margin-bottom: 15px;
+
+        object-fit: cover;
+        border-radius: 40px;
+        corner-shape: squircle;
+    }
+
+    .skills{
         grid-template-columns: 1fr;
     }
 }
@@ -162,6 +188,8 @@ footer a:hover {
 
 .resume{
     align-items: left;
+    object-fit: cover;
+
 }
 
 .resume h1{
