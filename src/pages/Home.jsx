@@ -8,7 +8,7 @@ function Home() {
               <ProjectCard
                     title="Portable MP3 Player"
                     image="/images/MP3P.jpg"
-                    description="A Rasberry Pi based MP3 player built using CAD and Python."
+                    description="A Raspberry Pi based MP3 player built using CAD and Python."
                     link="/projects/MP3"
                 />
 
