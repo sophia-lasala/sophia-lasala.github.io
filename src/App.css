@@ -243,6 +243,10 @@ p {
         display: grid;
         grid-template-columns: 1fr;
     }
+    
+    .skill-card {
+        display: none;
+    }
 
     .resume iframe {
         width: 100%;

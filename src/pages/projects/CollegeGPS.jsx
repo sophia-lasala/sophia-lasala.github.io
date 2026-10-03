@@ -1,7 +1,7 @@
 function CollegeGPS() {
     return (
         <div className = "college-gps">
-        <h1> Graph-Based Indoor Navigation System</h1>
+        <h1>Graph-Based Indoor Navigation System</h1>
         <div className = "project-link"><a href="https://github.com/sophia-lasala/College-Building-GPS-Tracker" target="_blank">Project Link</a></div> 
         <br></br>
         <div className = "skill-card"><p>.NET MAUI</p></div>

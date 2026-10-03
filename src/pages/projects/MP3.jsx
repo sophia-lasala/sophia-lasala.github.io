@@ -20,7 +20,7 @@ function MP3() {
         <p>Since this is my first major project using SolidWorks, part of the current development process has been learning how to approach CAD design and translate the concept for the MP3 player into a physical design.</p>
         <h2>Design Goals</h2>
         <p>The enclosure is being designed with several goals in mind:</p>
-         <ul>
+        <ul>
             <li><p>Approximately 5.83 * 3.54 * 1.26 inches</p></li>
             <li><p>Durable construction with a focus on drop resistance</p></li>
             <li><p>Compact and portable form factor</p></li>
