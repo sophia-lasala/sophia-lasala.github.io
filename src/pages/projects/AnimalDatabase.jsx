@@ -2,7 +2,7 @@ function AnimalDatabase(){
     return (
         <div className = "animal-database">
         <h1>Animal Shelter Database</h1>
-        <div className = "project-link"><a href="https://github.com/sophia-lasala/MP3-Player" target="_blank">Project Link</a></div> 
+        <div className = "project-link"><a href="https://github.com/sophia-lasala/Animal-Shelter-Database-GUI" target="_blank">Project Link</a></div> 
         <br></br>
         <div className = "skill-card"><p>Python</p></div>
         <div className = "skill-card"><p>SQL</p></div>
