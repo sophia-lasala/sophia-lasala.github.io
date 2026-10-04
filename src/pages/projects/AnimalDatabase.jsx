@@ -20,11 +20,21 @@ function AnimalDatabase(){
         <p>The backend currently includes the authentication system for the application. User account information is stored in an SQLite database, including usernames, password credentials, account access levels, and account creation dates.</p>
         <p>Rather than storing passwords directly, the system uses SHA-256 hashing with a salt to protect stored password information. 
             When a user attempts to log in, the provided password is processed and compared against the stored credentials.</p>
+        <img
+                src="/images/LoginAnimal.png"
+                alt="Login Demo"
+                className="code-photo"
+        />
         <p>New users can also create an account through the login system. After successfully authenticating, the user is directed to the main application.</p>
         <p>The overall structure of the application's pages has also been planned, providing a framework for the database and frontend features that are still being developed.</p>
         <h2>Backend Development</h2>
         <p>My primary responsibility on this project is developing the backend and databases that support the application.</p>
         <p>The planned database functionality includes...</p>
+        <img
+                src="/images/SQLLoginAnimal.png"
+                alt="SQL Code Display"
+                className="code-photo"
+        />
         <ul>
             <li><p>Animals: Name, ID, kennel, age, sex, breed, intake date, walking difficulty, medication, and adoption status</p></li>
             <li><p>Volunteers: Name, shifts, and walking difficulty</p></li>

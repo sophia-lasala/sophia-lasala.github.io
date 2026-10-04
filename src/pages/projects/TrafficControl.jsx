@@ -16,6 +16,11 @@ function TrafficControl() {
     <p>The program assigns the LEDs and LCD to specific pins on an Arduino Uno R3 and establishes a preset duration for each traffic light state.</p>
     <p>The system continuously loops through the traffic cycle, keeping track of the amount of time remaining in the current state.
          While each state is active, the LCD displays information about the current traffic light and its remaining time.</p>
+    <img
+                src="/images/Schematic.png"
+                alt="Login Demo"
+                className="code-photo"
+    />
     <p>Once the current timer reaches its end, the program transitions to the next traffic light state. 
         During the red-light state, the Arduino also plays music. After all states in the traffic cycle have been completed, the timers and state values are reset and the cycle begins again.</p>
     <h2>Design</h2>
@@ -37,6 +42,11 @@ function TrafficControl() {
             <li><p>Add additional Arduino components to improve the physical visualization</p></li>
             <li><p>Expand the system with additional traffic-related functionality</p></li>
     </ul>
+    <img
+                src="/images/Arduino_Design.png"
+                alt="Login Demo"
+                className="code-photo"
+    />
     </div>
 )}
 

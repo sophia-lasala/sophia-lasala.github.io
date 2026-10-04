@@ -149,7 +149,15 @@ footer a:hover {
 
     object-fit: cover;
     border-radius: 40px;
-    corner-shape: squircle;
+}
+
+.code-photo{
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 15px;
+
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 p {
