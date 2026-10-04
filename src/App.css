@@ -239,16 +239,16 @@ p {
     }
 
     .about-photo {
-       display: none;
-    }
-
-    .code-photo{
         float: center;
         width: 250px;
         margin-top: 15px;
         margin-left: 0;
         margin-right: 20px;
         margin-bottom: 15px;
+    }
+
+    .code-photo{
+        display: none;
     }
     .skills {
         display: grid;
