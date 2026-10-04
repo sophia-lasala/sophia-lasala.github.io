@@ -1,7 +1,7 @@
 function StreamingLicense() {
     return (
     <div className = "streaming-license">
-    <h1>Portable MP3 Player</h1>
+    <h1>Streaming License Database</h1>
     <div className = "project-link"><a href="https://github.com/sophia-lasala/Licenses" target="_blank">Project Link</a></div> 
     <br></br>
     <div className = "skill-card"><p>Java</p></div>
